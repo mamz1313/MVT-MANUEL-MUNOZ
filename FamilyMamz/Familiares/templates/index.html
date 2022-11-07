@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familiares de mamz</title>
+    
+</head>
+<body style="background:#839192">
+    <h1 style="color: black">Familia de Manuel Muñoz</h1>
+
+    {% for elemento in lista %}
+    <p style="color:green; font-size:3rem; font-weight:bold">{{elemento.nombre}} tiene {{elemento.edad}}, nacio en {{elemento.fecha}} y es {{elemento.parentesco}} de Manuel </p>
+
+    {% endfor %}
+</body>
+</html>
